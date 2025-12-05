@@ -1,5 +1,5 @@
 name = input("what is your name? ")
-print(f"hello {name} who do you think is better; Yankees or, Red Sox?")
+print(f"hello {name}, I'm Sam, who do you think is better; Yankees or, Red Sox?")
 input()
 answer = input
 if answer == "yankees" or answer == "Yankees":
