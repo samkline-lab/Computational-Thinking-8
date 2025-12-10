@@ -1,7 +1,6 @@
-name = input("what is your name? ")
+name = input("what is your name in all caps? ")
 print(f"hello {name}, I'm Sam, who do you think is better; Yankees or, Red Sox?")
-input()
-answer = input
+answer = input()
 if answer == "yankees" or answer == "Yankees":
     print("Good job!")
 if answer == "red sox" or answer == "Red Sox" or answer == "Red sox":
@@ -32,9 +31,21 @@ else:
     print("no, bad job")
     input()
 print("are the Red Sox bad? yes or no")
-input()
+answer == input()
 if answer == "yes" or answer == "Yes" or answer == "YES":
     print("good")
+    print(f"thanks {name}, thats all!")
 else:
-    print("bad")
-print(f"thanks {name}, thats all!")
+    print("NO!!!")
+    input()
+    print("BAD JOB!!!")
+    input()
+    print("BAD BAD BAD BAD BAD BAD!!!")
+    input()
+    print("YOU ARE A BAD PERSON!!!")
+    input()
+    print("YOU ARE NOT VERY GOOD AT THIS!!!")
+    input()
+    print("YOU ARE PROBABLY VERY BAD AT BASEBALL!!!")
+    input()
+    print(f"WHAT IS UP WITH YOU TODAY {name}? The Red Sox are SO bad!!!")
